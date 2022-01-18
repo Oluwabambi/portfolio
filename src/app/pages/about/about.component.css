@@ -1,3 +1,27 @@
+.mleft {
+    margin-left: 4.5rem;
+}
 h1, p {
     color: white;
+}
+.socials {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    /* margin-right: 2rem; */
+}
+.fab, .fal {
+    font-size: 25px;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+a, .fab, .fal {
+    color: white;
+    text-decoration: none;
+    transition: all .25s ease-in-out;
+}
+.fab:hover, .fal:hover {
+    /* color: black; */
+    color: white;
+    opacity: 0.7;
 }
