@@ -13,7 +13,7 @@ img {
     position: absolute;
     opacity: 0;
     bottom: 0px;
-    left: 110px;
+    left: 150px;
     transition: all 0.5s;
 }
 .card {
@@ -30,7 +30,7 @@ img {
 .portimage:hover .links {
     opacity: 1;
     bottom: 19px;
-    left: 110px;
+    left: 150px;
     display: block;
 }
 .socials {
