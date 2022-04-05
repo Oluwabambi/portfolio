@@ -114,3 +114,6 @@ a, .fab, .fal {
     color: white;
     opacity: 0.7;
 }
+.btn-info:hover {
+    box-shadow: 4px 4px 7px -1px rgba(0,0,0,0.7);
+}
