@@ -15,7 +15,7 @@
     cursor: pointer;
 }
 h1 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
 }
 p,h1 {
     color: white;
@@ -116,4 +116,10 @@ a, .fab, .fal {
 }
 .btn-info:hover {
     box-shadow: 4px 4px 7px -1px rgba(0,0,0,0.7);
+}
+@media(max-width:450px) {
+    .intro, .btns {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 }

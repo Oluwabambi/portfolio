@@ -25,6 +25,10 @@ img {
     cursor: pointer;
     transition: all 0.5s ease-in-out;
 }
+.portimage img {
+    width: 100%;
+    height: 50%;
+}
 .portimage:hover {
     opacity: 0.75;
 }
@@ -61,4 +65,20 @@ hr {
 }
 .oneport {
     display: none;
+}
+
+@media(max-width: 450px) {
+    .portimage:hover .links {
+        bottom: 13px;
+        left: 60px;
+    }
+    .links {
+        left: 60px;
+    }
+    .card {
+        height: 100%;
+    }
+    .portimage img {
+        height: 100%;
+    }
 }
