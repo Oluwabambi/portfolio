@@ -45,3 +45,16 @@ a:hover, .fab:hover, .fal:hover {
 .msg {
     width: 45%;
 }
+@media (max-width: 450px) {
+    .medcontain{
+        flex-direction: column-reverse;
+    }
+    form {
+        max-width: 23rem;
+        margin: auto;
+    }
+    .msg {
+        width: 100%;
+        text-align: center;
+    }
+}
